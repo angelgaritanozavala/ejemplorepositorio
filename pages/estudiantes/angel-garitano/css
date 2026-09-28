@@ -21,10 +21,14 @@ body{
     background-color: var(--bg_header);
     border-bottom: 2px solid var(--stroke);
     padding:32px;
+    display: flex;
 }
 .site-header h1{}
 .site-header .main-navigation{}
 .site-header .main-navigation .main-menu{
+    display: flex;
+    gap: 10px;
+
    
 }
 .site-header .main-navigation .main-menu .menu-item{}
