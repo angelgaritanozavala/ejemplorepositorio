@@ -36,12 +36,18 @@ body{
     padding:var(--s32);
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 .site-header h1{}
 .site-header .main-navigation{}
 .site-header .main-navigation .main-menu{
     display: flex;
     gap: var(--nav-gap);
+
+    
 
    
 }
